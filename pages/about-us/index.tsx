@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
-import { Button } from '@/components/index';
+
+import { Button } from '~/components/index';
 
 const AboutUs: React.FC = () => {
   const router = useRouter();

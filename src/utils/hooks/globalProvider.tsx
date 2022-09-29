@@ -1,11 +1,10 @@
-import React from 'react';
-import { ThemeProvider } from '@mui/material/styles';
-import theme from '../../assets/styles/theme';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import CssBaseline from '@mui/material/CssBaseline';
-import createEmotionCache from '../../utils/config/createEmotionCache';
-import GlobalStyles from '@mui/material/GlobalStyles';
+import { ThemeProvider } from '@mui/material/styles';
+
+import theme from '../../assets/styles/theme';
 import Layout from '../../modules/Layout';
+import createEmotionCache from '../config/createEmotionCache';
 
 interface GlobalProviderProps {
   children?: React.ReactNode;

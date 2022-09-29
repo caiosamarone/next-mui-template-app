@@ -1,8 +1,9 @@
-import { Button } from '@/components/index';
 import { Box, Typography, Divider } from '@mui/material';
-import Image from 'next/image';
-import { brfBlackLogo } from '@/assets/images';
 import { useTheme } from '@mui/material/styles';
+import Image from 'next/image';
+
+import { brfBlackLogo } from '~/assets/images';
+import { Button } from '~/components/index';
 
 const Footer: React.FC = () => {
   const theme = useTheme();

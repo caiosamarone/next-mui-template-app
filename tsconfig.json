@@ -2,10 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".", //configura pasta base do projeto
     "paths": {
-      "@/components/*": ["src/components/*"],  //facilita importação do caminho absoluto
-      "@/assets/*": ["src/assets/*"],
-      "@/modules/*": ["src/modules/*"],
-      "@/utils/*": ["src/modules/*"],
+      "~/*": ["src/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
