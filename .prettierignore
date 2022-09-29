@@ -1,0 +1,8 @@
+dist
+src/assets/*
+yarn.lock
+.gitignore
+.eslintignore
+.next/*
+tsconfig.json
+next.config.js

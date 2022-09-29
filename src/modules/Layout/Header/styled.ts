@@ -1,6 +1,6 @@
-import { styled } from "@mui/material/styles";
+import { styled } from '@mui/material/styles';
 
-export const Header = styled('header')(({ theme}) => ({
+export const Header = styled('header')(({ theme }) => ({
   position: 'relative',
   minHeight: '60px',
   borderBottom: `1px solid ${theme.palette.info.main}`,
@@ -9,4 +9,4 @@ export const Header = styled('header')(({ theme}) => ({
 
 export const BrfIcon = styled('img')({
   height: '38px'
-})
+});

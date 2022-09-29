@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", //configura pasta base do projeto
+    "paths": {
+      "@/components/*": ["src/components/*"],  //facilita importação do caminho absoluto
+      "@/assets/*": ["src/assets/*"],
+      "@/modules/*": ["src/modules/*"],
+      "@/utils/*": ["src/modules/*"],
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "strict": true, //segurança
+    "forceConsistentCasingInFileNames": true, //forçar nome de arquivos com sintaxe correta
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -13,8 +20,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "jsxImportSource": "react",
+    "sourceMap": true,
+    "incremental": true,
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/**/*","src/**/*","components/**/*"],
   "exclude": ["node_modules"]
 }
