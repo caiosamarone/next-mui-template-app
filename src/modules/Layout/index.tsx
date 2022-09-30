@@ -9,12 +9,21 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <Container maxWidth="xl" sx={{ display: 'flex', flexDirection: 'column' }}>
+    <Container
+      maxWidth="xl"
+      sx={{
+        display: 'flex',
+        flexDirection: 'column'
+      }}
+    >
       <Header />
       <Box
         id="body"
         component="div"
-        sx={{ width: '100%', minHeight: 'calc(100vh - 10rem)' }}
+        sx={{
+          width: '100%',
+          minHeight: 'calc(100vh - 12rem)'
+        }}
       >
         {children}
       </Box>

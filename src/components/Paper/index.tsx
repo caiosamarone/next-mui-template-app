@@ -15,7 +15,16 @@ const Paper: React.FC<PaperProps> = ({
   ...props
 }) => {
   return (
-    <PaperMui sx={{ width, height, padding, ...props }}>{children}</PaperMui>
+    <PaperMui
+      sx={{
+        width,
+        height,
+        padding,
+        ...props
+      }}
+    >
+      {children}
+    </PaperMui>
   );
 };
 

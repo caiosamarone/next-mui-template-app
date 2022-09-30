@@ -17,7 +17,10 @@ const Home: NextPage = () => {
       <S.Container>
         <Typography
           variant="h3"
-          sx={{ color: theme.palette.text.primary, fontSize: '2.50rem' }}
+          sx={{
+            color: theme.palette.text.primary,
+            fontSize: '2.50rem'
+          }}
         >
           Boilerplate NextJS + Material UI 5
         </Typography>
@@ -26,14 +29,18 @@ const Home: NextPage = () => {
             <img
               src="https://veja.abril.com.br/wp-content/uploads/2017/03/brf-chapeco-20170317-0002.jpg"
               alt="BRF"
-              style={{ height: '100%' }}
+              style={{
+                height: '100%'
+              }}
             />
           </Paper>
           <Box display="flex" flexDirection="column" gap={2}>
             <Paper width={220} height="fit-content" padding="12px">
               <Typography
                 variant="caption"
-                sx={{ color: theme.palette.text.primary }}
+                sx={{
+                  color: theme.palette.text.primary
+                }}
               >
                 A BRF S.A. é uma das maiores companhias de alimentos do mundo,
                 com mais de 30 marcas em seu portfólio
@@ -42,7 +49,9 @@ const Home: NextPage = () => {
             <Paper width={220} height="fit-content" padding="12px">
               <Typography
                 variant="caption"
-                sx={{ color: theme.palette.text.primary }}
+                sx={{
+                  color: theme.palette.text.primary
+                }}
               >
                 A BRF é uma empresa transnacional brasileira do ramo
                 alimentício, fruto da fusão entre Sadia e Perdigão, duas das
@@ -53,7 +62,9 @@ const Home: NextPage = () => {
           <Paper width={120} height={220} padding="12px">
             <Typography
               variant="caption"
-              sx={{ color: theme.palette.text.primary }}
+              sx={{
+                color: theme.palette.text.primary
+              }}
             >
               MyPaper
             </Typography>

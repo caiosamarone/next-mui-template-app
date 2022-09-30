@@ -42,23 +42,52 @@
       "warn",
       {
         "newlinesBetween": "always",
-        "groups": ["/^react/", "module", "/^@shared/", "/^~/", ["parent", "sibling", "index"]],
-        "alphabetize": { "order": "asc", "ignoreCase": true }
+        "groups": [
+          "/^react/",
+          "module",
+          "/^@shared/",
+          "/^~/",
+          ["parent", "sibling", "index"]
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "ignoreCase": true
+        }
       }
     ],
     "import/no-cycle": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
     "import/prefer-default-export": "off",
     "no-param-reassign": "off",
     "no-shadow": "off",
-    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowTaggedTemplates": true
+      }
+    ],
     "no-use-before-define": "off",
     "prefer-promise-reject-errors": "off",
     "prettier/prettier": "error",
     "react/destructuring-assignment": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
     "react/jsx-props-no-spreading": "off",
-    "react/jsx-wrap-multilines": ["error", { "prop": "ignore" }],
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        "prop": "ignore"
+      }
+    ],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "space-before-function-paren": "off"
