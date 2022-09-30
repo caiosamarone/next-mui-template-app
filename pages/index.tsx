@@ -13,6 +13,13 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Boilerplate NextJs</title>
+        <meta
+          name="description"
+          content="Boilerplate feito com Next JS, Typrescript, Material UI5"
+        />
+        <meta name="keywords" content="TS, Next, Mui" />
+        <meta name="author" content="Caio Mendes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <S.Container>
         <Typography
@@ -33,41 +40,6 @@ const Home: NextPage = () => {
                 height: '100%'
               }}
             />
-          </Paper>
-          <Box display="flex" flexDirection="column" gap={2}>
-            <Paper width={220} height="fit-content" padding="12px">
-              <Typography
-                variant="caption"
-                sx={{
-                  color: theme.palette.text.primary
-                }}
-              >
-                A BRF S.A. é uma das maiores companhias de alimentos do mundo,
-                com mais de 30 marcas em seu portfólio
-              </Typography>
-            </Paper>
-            <Paper width={220} height="fit-content" padding="12px">
-              <Typography
-                variant="caption"
-                sx={{
-                  color: theme.palette.text.primary
-                }}
-              >
-                A BRF é uma empresa transnacional brasileira do ramo
-                alimentício, fruto da fusão entre Sadia e Perdigão, duas das
-                principais empresas de alimentos do Brasil.
-              </Typography>
-            </Paper>
-          </Box>
-          <Paper width={120} height={220} padding="12px">
-            <Typography
-              variant="caption"
-              sx={{
-                color: theme.palette.text.primary
-              }}
-            >
-              MyPaper
-            </Typography>
           </Paper>
         </Box>
       </S.Container>

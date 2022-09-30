@@ -21,6 +21,7 @@ const Footer: React.FC = () => {
             sm: 'row'
           },
           alignItems: {
+            md: 'center',
             xs: 'revert'
           }
         }}
