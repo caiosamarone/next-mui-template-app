@@ -1,0 +1,6 @@
+#nprogress .bar {
+    height: 3px;
+    background: linear-gradient(90deg,#ffc20e 0.01%,#f58220 21.27%,#e31f26 41.75%,#9d2c4e 62.24%,#812990 82.72%) left bottom #fff no-repeat;
+    background-size: 100% 3px;
+}
+

@@ -68,7 +68,7 @@ const theme = createTheme({
       },
       a {
         textDecoration: none;
-      }
+      },
     `,
     },
   },
