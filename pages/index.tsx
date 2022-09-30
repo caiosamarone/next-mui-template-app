@@ -4,7 +4,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 
 import * as S from '~/assets/styles/pages/home';
-import { Paper } from '~/components/index';
+import { Paper } from '~/components';
 
 const Home: NextPage = () => {
   const theme = useTheme();

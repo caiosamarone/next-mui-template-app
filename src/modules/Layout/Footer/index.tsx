@@ -3,7 +3,7 @@ import { useTheme } from '@mui/material/styles';
 import Image from 'next/image';
 
 import { brfBlackLogo } from '~/assets/images';
-import { Button } from '~/components/index';
+import { Button } from '~/components';
 
 const Footer: React.FC = () => {
   const theme = useTheme();
